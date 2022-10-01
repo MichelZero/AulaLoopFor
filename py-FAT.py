@@ -51,7 +51,7 @@ print(f"o fatorial de {temp} é {fat}")
 #https://pt.wikipedia.org/wiki/Fatorial
 
 def fatorial(valor):
-  valor = valor if valor > 1 else 1
+  valor = valor if valor > 1 else 1 # não aceita número menor do que 1
   fat = 1
   for i in range(1, valor+1):
     fat = fat * i
