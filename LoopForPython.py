@@ -41,3 +41,4 @@ for i in cores:
         continue
     print(i)
 # Imprime vermelho verde amarelo
+
