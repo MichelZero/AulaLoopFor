@@ -26,6 +26,24 @@ fat = 1
 for i in range(1, numero + 1):
   fat = fat * i
   print(i, '->', fat)
+  
+
+################   1.3   ###########################
+# se a entrada for ZERO
+#entrada
+num1 = int(input("informe um número :"))
+temp= num1
+fat = 1 
+#processamento
+if num1 == 0 :
+  pass 
+else:
+  while (num1 > 0):
+    fat = fat * num1 # 5*4*3*2*1
+    num1 = num1 - 1
+
+#saida  
+print(f"o fatorial de {temp} é {fat}")  
 
 
 ############  2  ###############################
