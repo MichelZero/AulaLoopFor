@@ -5,8 +5,6 @@
 # Data: 01/10/2022
 ##
 
-# numD = int(input("informe um valor inteiro: "))
-
 # range(start, stop, step) 
 
 for i in range(10):

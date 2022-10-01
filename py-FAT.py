@@ -53,12 +53,12 @@ print(f"o fatorial de {temp} é {fat}")
 def fatorial(valor):
   valor = valor if valor > 1 else 1 # não aceita número menor do que 1
   fat = 1
-  for i in range(1, valor+1):
+  for i in range(1, valor + 1):
     fat = fat * i
   return fat
 
 # Testando...
 numero = int(input('Digite um número inteiro positivo: '))
-for i in range(1, numero+1):
+for i in range(1, numero + 1):
   #print(numero)
   print(i, '->', fatorial(i))
